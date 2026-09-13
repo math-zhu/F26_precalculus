@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="360">
+  <title>Right triangle with legs x2-x1 and y2-y1, hypotenuse the segment from P1 to P2, deriving the distance formula</title>
+  <defs>
+    <marker id="arrow-dist" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="300" height="260" fill="#ffffff"/>
+  <line x1="15" y1="225" x2="285" y2="225" stroke="#333333" stroke-width="2" marker-end="url(#arrow-dist)"/>
+  <line x1="35" y1="245" x2="35" y2="15" stroke="#333333" stroke-width="2" marker-end="url(#arrow-dist)"/>
+  <text x="18" y="240" font-size="12" fill="#333333">O</text>
+
+  <!-- right triangle legs -->
+  <line x1="70" y1="180" x2="230" y2="180" stroke="#ea580c" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="230" y1="180" x2="230" y2="60" stroke="#ea580c" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- hypotenuse: segment P1P2 -->
+  <line x1="70" y1="180" x2="230" y2="60" stroke="#2563eb" stroke-width="2.5"/>
+
+  <circle cx="70" cy="180" r="3.5" fill="#2563eb"/>
+  <text x="40" y="198" font-size="13" fill="#2563eb">P&#8321;(x&#8321;, y&#8321;)</text>
+
+  <circle cx="230" cy="60" r="3.5" fill="#2563eb"/>
+  <text x="238" y="58" font-size="13" fill="#2563eb">P&#8322;(x&#8322;, y&#8322;)</text>
+
+  <text x="140" y="198" font-size="13" fill="#ea580c">x&#8322; &#8722; x&#8321;</text>
+  <text x="236" y="125" font-size="13" fill="#ea580c">y&#8322; &#8722; y&#8321;</text>
+
+  <text x="120" y="110" font-size="13" fill="#2563eb">d</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="340">
+  <title>Two perpendicular lines through O read off at the same run, with similar triangles OFA and BFO proving m1*m2=-1</title>
+  <defs>
+    <marker id="arrow-pp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="300" height="300" fill="#ffffff"/>
+  <line x1="15" y1="200" x2="270" y2="200" stroke="#333333" stroke-width="2" marker-end="url(#arrow-pp)"/>
+  <line x1="60" y1="285" x2="60" y2="15" stroke="#333333" stroke-width="2" marker-end="url(#arrow-pp)"/>
+  <text x="42" y="215" font-size="12" fill="#333333">O</text>
+
+  <!-- the vertical line x=1 (same run for both A and B) -->
+  <line x1="120" y1="55" x2="120" y2="255" stroke="#333333" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+
+  <!-- line 1 through O and A, slope m1 -->
+  <line x1="60" y1="200" x2="129" y2="62" stroke="#2563eb" stroke-width="2.5"/>
+  <!-- line 2 through O and B, slope m2 -->
+  <line x1="60" y1="200" x2="138" y2="239" stroke="#16a34a" stroke-width="2.5"/>
+
+  <!-- run segment O to F -->
+  <line x1="60" y1="200" x2="120" y2="200" stroke="#ea580c" stroke-width="2"/>
+  <circle cx="120" cy="200" r="3.5" fill="#333333"/>
+  <text x="126" y="215" font-size="13" fill="#333333">F</text>
+  <text x="82" y="216" font-size="13" fill="#ea580c">1</text>
+
+  <!-- rise segments F to A and F to B -->
+  <line x1="120" y1="200" x2="120" y2="80" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="120" y1="200" x2="120" y2="230" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <circle cx="120" cy="80" r="3.5" fill="#2563eb"/>
+  <text x="128" y="76" font-size="13" fill="#2563eb">A</text>
+  <text x="126" y="145" font-size="13" fill="#2563eb">m&#8321;</text>
+
+  <circle cx="120" cy="230" r="3.5" fill="#16a34a"/>
+  <text x="128" y="234" font-size="13" fill="#16a34a">B</text>
+  <text x="126" y="220" font-size="13" fill="#16a34a">&#8722;m&#8322;</text>
+
+  <!-- right angle marker at F -->
+  <path d="M 108 200 L 108 188 L 120 188" fill="none" stroke="#333333" stroke-width="1.2"/>
+
+  <!-- right angle marker at O between OA and OB -->
+  <path d="M 78 191 L 84 202 L 73 208" fill="none" stroke="#333333" stroke-width="1.2"/>
+</svg>

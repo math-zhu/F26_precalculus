@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="380">
+  <title>The line y=x through the origin, passing through (1,1), (2,2), (3,3)</title>
+  <defs>
+    <marker id="arrow-yx" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="300" height="300" fill="#ffffff"/>
+  <line x1="20" y1="150" x2="280" y2="150" stroke="#333333" stroke-width="2" marker-end="url(#arrow-yx)"/>
+  <line x1="150" y1="280" x2="150" y2="20" stroke="#333333" stroke-width="2" marker-end="url(#arrow-yx)"/>
+  <text x="135" y="168" font-size="13" fill="#333333">O</text>
+  <line x1="22" y1="278" x2="278" y2="22" stroke="#2563eb" stroke-width="2.5"/>
+  <circle cx="182" cy="118" r="3.5" fill="#2563eb"/>
+  <circle cx="214" cy="86" r="3.5" fill="#2563eb"/>
+  <circle cx="246" cy="54" r="3.5" fill="#2563eb"/>
+  <text x="252" y="40" font-size="13" fill="#2563eb">y = x</text>
+</svg>

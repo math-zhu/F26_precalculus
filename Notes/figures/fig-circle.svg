@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 280" width="360">
+  <title>Circle with center C(h, k), radius r, and a point P(x, y) on the circle</title>
+  <defs>
+    <marker id="arrow-circ" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="300" height="280" fill="#ffffff"/>
+  <line x1="15" y1="245" x2="285" y2="245" stroke="#333333" stroke-width="2" marker-end="url(#arrow-circ)"/>
+  <line x1="45" y1="265" x2="45" y2="15" stroke="#333333" stroke-width="2" marker-end="url(#arrow-circ)"/>
+  <text x="28" y="260" font-size="12" fill="#333333">O</text>
+
+  <circle cx="150" cy="140" r="80" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+
+  <!-- center -->
+  <circle cx="150" cy="140" r="3.5" fill="#ea580c"/>
+  <text x="156" y="136" font-size="13" fill="#ea580c">C(h, k)</text>
+
+  <!-- radius to a point on the circle -->
+  <line x1="150" y1="140" x2="207" y2="83" stroke="#16a34a" stroke-width="2"/>
+  <circle cx="207" cy="83" r="3.5" fill="#16a34a"/>
+  <text x="213" y="80" font-size="13" fill="#16a34a">P(x, y)</text>
+  <text x="168" y="102" font-size="13" fill="#16a34a">r</text>
+</svg>

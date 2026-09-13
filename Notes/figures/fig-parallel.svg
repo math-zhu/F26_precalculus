@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" width="400">
+  <title>Horizontal lines y=1, y=2, y=3 and vertical lines x=1, x=-1 on a coordinate plane</title>
+  <defs>
+    <marker id="arrow-par" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="320" height="260" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="20" y1="220" x2="290" y2="220" stroke="#333333" stroke-width="2" marker-end="url(#arrow-par)"/>
+  <line x1="150" y1="240" x2="150" y2="20" stroke="#333333" stroke-width="2" marker-end="url(#arrow-par)"/>
+  <text x="156" y="234" font-size="12" fill="#333333">O</text>
+
+  <!-- horizontal parallel lines y = 1, 2, 3 -->
+  <line x1="20" y1="180" x2="280" y2="180" stroke="#2563eb" stroke-width="2.5"/>
+  <line x1="20" y1="140" x2="280" y2="140" stroke="#16a34a" stroke-width="2.5"/>
+  <line x1="20" y1="100" x2="280" y2="100" stroke="#ea580c" stroke-width="2.5"/>
+  <text x="284" y="184" font-size="13" fill="#2563eb">y = 1</text>
+  <text x="284" y="144" font-size="13" fill="#16a34a">y = 2</text>
+  <text x="284" y="104" font-size="13" fill="#ea580c">y = 3</text>
+
+  <!-- vertical parallel lines x = 1, x = -1 -->
+  <line x1="190" y1="20" x2="190" y2="240" stroke="#7c3aed" stroke-width="2.5"/>
+  <line x1="110" y1="20" x2="110" y2="240" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="172" y="14" font-size="13" fill="#7c3aed">x = 1</text>
+  <text x="78" y="14" font-size="13" fill="#dc2626">x = -1</text>
+
+  <!-- axis tick marks + coordinate labels -->
+  <text x="132" y="184" font-size="11" fill="#333333">1</text>
+  <text x="132" y="144" font-size="11" fill="#333333">2</text>
+  <text x="132" y="104" font-size="11" fill="#333333">3</text>
+  <text x="186" y="233" font-size="11" fill="#333333">1</text>
+  <text x="102" y="233" font-size="11" fill="#333333">-1</text>
+</svg>

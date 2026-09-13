@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="360">
+  <title>Similar right triangles from three collinear points A, B, C showing slope is well defined</title>
+  <defs>
+    <marker id="arrow-si" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="300" height="260" fill="#ffffff"/>
+  <line x1="15" y1="225" x2="285" y2="225" stroke="#333333" stroke-width="2" marker-end="url(#arrow-si)"/>
+  <line x1="35" y1="245" x2="35" y2="15" stroke="#333333" stroke-width="2" marker-end="url(#arrow-si)"/>
+  <text x="18" y="240" font-size="12" fill="#333333">O</text>
+
+  <!-- the line through A, B, D -->
+  <line x1="60" y1="200" x2="260" y2="40" stroke="#2563eb" stroke-width="2.5"/>
+
+  <!-- small triangle A -> B -->
+  <line x1="60" y1="200" x2="140" y2="200" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="140" y1="200" x2="140" y2="136" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- large triangle A -> C -->
+  <line x1="60" y1="200" x2="230" y2="200" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="230" y1="200" x2="230" y2="64" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <circle cx="60" cy="200" r="3.5" fill="#2563eb"/>
+  <text x="42" y="217" font-size="13" fill="#2563eb">A</text>
+
+  <circle cx="140" cy="136" r="3.5" fill="#2563eb"/>
+  <text x="146" y="132" font-size="13" fill="#2563eb">B</text>
+
+  <circle cx="230" cy="64" r="3.5" fill="#2563eb"/>
+  <text x="236" y="60" font-size="13" fill="#2563eb">C</text>
+</svg>

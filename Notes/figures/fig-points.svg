@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 320" width="420">
+  <title>Coordinate plane showing a general point C(3,2), a point A(4,0) on the x-axis, and a point B(0,3) on the y-axis</title>
+  <defs>
+    <marker id="arrow-pts" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="340" height="320" fill="#ffffff"/>
+  <line x1="15" y1="260" x2="330" y2="260" stroke="#333333" stroke-width="2" marker-end="url(#arrow-pts)"/>
+  <line x1="60" y1="305" x2="60" y2="35" stroke="#333333" stroke-width="2" marker-end="url(#arrow-pts)"/>
+  <text x="45" y="278" font-size="13" fill="#333333">O</text>
+
+  <!-- guide lines for the general point C(3,2) -->
+  <line x1="195" y1="260" x2="195" y2="170" stroke="#333333" stroke-width="1" stroke-dasharray="4 3" opacity="0.5"/>
+  <line x1="60" y1="170" x2="195" y2="170" stroke="#333333" stroke-width="1" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="195" cy="170" r="4" fill="#2563eb"/>
+  <text x="202" y="163" font-size="13" fill="#2563eb">C(3, 2)</text>
+
+  <!-- point on the x-axis -->
+  <circle cx="240" cy="260" r="4" fill="#16a34a"/>
+  <text x="215" y="280" font-size="13" fill="#16a34a">A(4, 0)</text>
+
+  <!-- point on the y-axis -->
+  <circle cx="60" cy="125" r="4" fill="#ea580c"/>
+  <text x="68" y="121" font-size="13" fill="#ea580c">B(0, 3)</text>
+</svg>

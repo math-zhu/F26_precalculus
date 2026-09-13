@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 240" width="340">
+  <title>A general line through the origin passing through (1,2) and (2,4), with dashed right triangles showing the similar-triangles argument</title>
+  <defs>
+    <marker id="arrow-gen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="260" height="240" fill="#ffffff"/>
+  <line x1="15" y1="210" x2="245" y2="210" stroke="#333333" stroke-width="2" marker-end="url(#arrow-gen)"/>
+  <line x1="30" y1="225" x2="30" y2="15" stroke="#333333" stroke-width="2" marker-end="url(#arrow-gen)"/>
+  <text x="14" y="222" font-size="12" fill="#333333">O</text>
+
+  <line x1="30" y1="210" x2="122" y2="26" stroke="#2563eb" stroke-width="2.5"/>
+
+  <line x1="70" y1="210" x2="70" y2="130" stroke="#333333" stroke-width="1" stroke-dasharray="4 3" opacity="0.6"/>
+  <line x1="110" y1="210" x2="110" y2="50" stroke="#333333" stroke-width="1" stroke-dasharray="4 3" opacity="0.6"/>
+
+  <text x="66" y="224" font-size="12" fill="#333333">1</text>
+  <text x="106" y="224" font-size="12" fill="#333333">2</text>
+  <text x="50" y="174" font-size="12" fill="#16a34a">2</text>
+  <text x="88" y="134" font-size="12" fill="#16a34a">4</text>
+
+  <circle cx="70" cy="130" r="3.5" fill="#2563eb"/>
+  <text x="76" y="128" font-size="12" fill="#2563eb">(1, 2)</text>
+  <circle cx="110" cy="50" r="3.5" fill="#2563eb"/>
+  <text x="114" y="48" font-size="12" fill="#2563eb">(2, 4)</text>
+</svg>

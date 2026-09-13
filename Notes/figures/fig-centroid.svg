@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" width="320">
+  <title>Triangle ABC with its three medians meeting at the centroid G</title>
+  <defs>
+    <marker id="arrow-cen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="260" height="260" fill="#ffffff"/>
+  <line x1="15" y1="220" x2="245" y2="220" stroke="#333333" stroke-width="2" marker-end="url(#arrow-cen)"/>
+  <line x1="40" y1="245" x2="40" y2="15" stroke="#333333" stroke-width="2" marker-end="url(#arrow-cen)"/>
+  <text x="24" y="235" font-size="12" fill="#333333">O</text>
+
+  <!-- triangle ABC -->
+  <polygon points="40,220 220,220 100,100" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+
+  <circle cx="40" cy="220" r="3.5" fill="#2563eb"/>
+  <text x="24" y="238" font-size="13" fill="#2563eb">A</text>
+  <circle cx="220" cy="220" r="3.5" fill="#2563eb"/>
+  <text x="226" y="222" font-size="13" fill="#2563eb">B</text>
+  <circle cx="100" cy="100" r="3.5" fill="#2563eb"/>
+  <text x="106" y="94" font-size="13" fill="#2563eb">C</text>
+
+  <!-- midpoints of the sides -->
+  <circle cx="160" cy="160" r="3" fill="#ea580c"/>
+  <text x="166" y="158" font-size="12" fill="#ea580c">M&#8321;</text>
+  <circle cx="70" cy="160" r="3" fill="#ea580c"/>
+  <text x="42" y="150" font-size="12" fill="#ea580c">M&#8322;</text>
+  <circle cx="130" cy="220" r="3" fill="#ea580c"/>
+  <text x="124" y="238" font-size="12" fill="#ea580c">M&#8323;</text>
+
+  <!-- medians -->
+  <line x1="40" y1="220" x2="160" y2="160" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="220" y1="220" x2="70" y2="160" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="100" y1="100" x2="130" y2="220" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- centroid -->
+  <circle cx="120" cy="180" r="4" fill="#16a34a"/>
+  <text x="126" y="184" font-size="13" fill="#16a34a">G</text>
+</svg>
