@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="700">
+  <title>Five parent function graphs: y equals x, x squared, 1 over x, square root of x, and absolute value of x</title>
+  <rect width="520" height="360" fill="#ffffff"/>
+  <g stroke="#d1d5db" stroke-width="1">
+    <path d="M130 20V340M260 20V340M390 20V340M20 90H500M20 180H500M20 270H500"/>
+  </g>
+  <g stroke="#333333" stroke-width="1.5">
+    <path d="M20 90H500M130 20V160M20 180H500M260 110V250M20 270H500M390 200V340"/>
+  </g>
+  <g fill="none" stroke-width="2.5">
+    <path d="M35 150 L115 70" stroke="#2563eb"/>
+    <path d="M150 150 Q195 95 245 150" stroke="#ea580c"/>
+    <path d="M275 155 Q285 125 300 115 M320 245 Q335 235 345 220" stroke="#16a34a"/>
+    <path d="M405 150 Q430 130 455 115" stroke="#9333ea"/>
+    <path d="M405 150 L390 180 L375 210 M405 150 L420 180 L435 210" stroke="#dc2626"/>
+  </g>
+  <g font-family="sans-serif" font-size="13" fill="#111827">
+    <text x="38" y="42">y = x</text><text x="168" y="42">y = x^2</text>
+    <text x="290" y="42">y = 1/x</text><text x="405" y="42">y = sqrt(x)</text>
+    <text x="398" y="250">y = |x|</text>
+  </g>
+</svg>
