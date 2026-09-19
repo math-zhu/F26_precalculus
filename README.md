@@ -25,7 +25,7 @@ Course Information: This course provides a systematic introduction to the core i
 | Date | Notes and Homework | Homework Solutions |
 |------|-------|----------|
 | 9/12 | [N1](Notes/N1.pdf) | [HW1](Homework/HW1.pdf) |
-| 9/19 | N2 | TBD |
+| 9/19 | [N2](Notes/N2.pdf) | TBD |
 | 9/26 | N3 | TBD |
 | 10/3 | N4 | TBD |
 | 10/10 | N5 | TBD |
