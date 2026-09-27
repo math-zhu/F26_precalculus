@@ -19,15 +19,21 @@ Work in the current workspace and preserve the repository's existing Markdown st
 4. Include the original problem statement before every solution. Keep the exercise numbering aligned with the lecture note.
 5. Solve every exercise. Show calculations in enough detail to be checked. For proof exercises, give a formal proof and do not replace the key algebra or geometry with phrases such as "it follows" or "after simplification" when the omitted step is central.
 6. For coordinate-geometry problems, prefer the formulas and methods introduced in the lecture. When a direct intersection calculation is requested, show the actual equations and elimination steps rather than hiding the work behind unexplained helper variables or a named formula the student has not learned.
-7. Review the completed solution set against the source note line by line. Recompute numerical answers, substitute results back into equations, and check proof logic. Fix any issue before publishing.
-8. Generate `Homework/HWn.pdf` from the Markdown using Pandoc and XeLaTeX. Start with:
+7. For any exercise that asks the student to sketch, graph, or plot a function (or where a graph materially clarifies the answer, e.g. transformations, parabolas, cubics with turning points, piecewise or inverse functions), generate an SVG figure and embed it:
+   - Write a throwaway Python script that uses `matplotlib` (version already installed in this environment) to render the plot, then save it with `plt.savefig(path, format="svg")`. Delete or leave the script out of the commit; only the generated `.svg` is a repo artifact.
+   - Save figures under `Homework/figures/HWn-fig-<slug>.svg` (create the directory if missing), matching the naming style of `Notes/figures/fig-*.svg`.
+   - Style to match the existing figures in `Notes/figures/`: white background, light gray gridlines, labeled axes crossing at the origin, a legend when multiple curves appear, and a descriptive plot `title` (this becomes the SVG's accessible title/metadata).
+   - Embed with `![Alt text describing the graph](figures/HWn-fig-<slug>.svg){width=300px}`, immediately after the relevant solution text, following the Markdown image conventions already used in `Notes/N*.md`.
+   - Double-check the plotted curve actually matches the algebra in the solution (correct vertex, intercepts, asymptotes, turning points) before embedding.
+8. Review the completed solution set against the source note line by line. Recompute numerical answers, substitute results back into equations, and check proof logic. Fix any issue before publishing.
+9. Generate `Homework/HWn.pdf` from the Markdown using Pandoc and XeLaTeX. Start with:
 
-   `pandoc Homework/HWn.md -o Homework/HWn.pdf --pdf-engine=xelatex --resource-path=Notes -V geometry:margin=1in`
+   `pandoc Homework/HWn.md -o Homework/HWn.pdf --pdf-engine=xelatex --resource-path=Notes:Homework -V geometry:margin=1in`
 
    Do not add an explicit font or highlight style unless the environment confirms it exists. If PDF generation fails, diagnose the concrete error and retry with the simplest compatible command.
-9. Validate that the PDF exists and is nonempty. Run editor diagnostics on changed Markdown files when available.
-10. Update the matching row in `README.md` so the Homework Solutions column links to `Homework/HWn.pdf`. Preserve unrelated README content.
-11. Do not commit changes or create branches.
+10. Validate that the PDF exists and is nonempty. Run editor diagnostics on changed Markdown files when available.
+11. Update the matching row in `README.md` so the Homework Solutions column links to `Homework/HWn.pdf`. Preserve unrelated README content.
+12. Do not commit changes or create branches.
 
 ## Output Requirements
 
@@ -35,6 +41,7 @@ Report:
 
 - The lecture note used.
 - The Markdown and PDF files created or updated.
+- Any SVG figures generated, with the exercise each one illustrates.
 - The README row updated.
 - The validation commands run and whether they passed.
 - Any unresolved issue; never claim a review or PDF validation that was not actually performed.
