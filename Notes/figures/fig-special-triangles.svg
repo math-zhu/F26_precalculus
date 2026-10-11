@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="216pt" viewBox="0 0 460.8 216" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Special right triangles: half of an equilateral triangle of side 2 gives sides 1, root 3, 2; half of a unit square gives sides 1, 1, root 2</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Special right triangles: half of an equilateral triangle of side 2 gives sides 1, root 3, 2; half of a unit square gives sides 1, 1, root 2</dc:title>
+    <dc:date>2026-10-10T11:08:24.275312</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 216 
+L 460.8 216 
+L 460.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 87.11405 153.351074 
+L 205.170248 153.351074 
+L 146.142149 51.111408 
+L 87.11405 153.351074 
+" clip-path="url(#p8a2dd3aaf9)" style="fill: none; stroke: #2563eb; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 146.142149 153.351074 
+L 146.142149 51.111408 
+" clip-path="url(#p8a2dd3aaf9)" style="fill: none; stroke: #dc2626; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 139.058777 153.351074 
+L 139.058777 146.267702 
+L 146.142149 146.267702 
+" clip-path="url(#p8a2dd3aaf9)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="116.628099" y="172.75435" transform="rotate(-0 116.628099 172.75435)">1</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="175.656198" y="172.75435" transform="rotate(-0 175.656198 172.75435)">1</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="109.544727" y="99.279836" transform="rotate(-0 109.544727 99.279836)">2</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="182.73957" y="99.279836" transform="rotate(-0 182.73957 99.279836)">2</text>
+   </g>
+   <g id="text_5">
+    <!-- $\sqrt{3}$ -->
+    <g style="fill: #dc2626" transform="translate(149.683835 106.630069)">
+     <text>
+      <tspan x="0" y="-2.43125" style="font-size: 5.786802px; font-family: 'STIXSizeOneSym'; fill: #dc2626">√</tspan>
+      <tspan x="7.360703" y="-0.953125" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #dc2626">3</tspan>
+     </text>
+     <rect x="6.110703" y="-12.375" width="8.862305" height="0.625"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- $60^\circ$ -->
+    <g transform="translate(91.721074 146.267702)">
+     <text>
+      <tspan x="0" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">6</tspan>
+      <tspan x="6.362305" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">0</tspan>
+      <tspan x="14.184082" y="-4.707813" style="font-size: 7px; font-family: 'DejaVu Sans'">∘</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- $60^\circ$ -->
+    <g transform="translate(180.263223 146.267702)">
+     <text>
+      <tspan x="0" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">6</tspan>
+      <tspan x="6.362305" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">0</tspan>
+      <tspan x="14.184082" y="-4.707813" style="font-size: 7px; font-family: 'DejaVu Sans'">∘</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_8">
+    <!-- $30^\circ$ -->
+    <g transform="translate(119.939339 80.625457)">
+     <text>
+      <tspan x="0" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">3</tspan>
+      <tspan x="6.362305" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">0</tspan>
+      <tspan x="14.184082" y="-4.707813" style="font-size: 7px; font-family: 'DejaVu Sans'">∘</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_9">
+    <!-- $30^\circ$ -->
+    <g transform="translate(152.044959 80.625457)">
+     <text>
+      <tspan x="0" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">3</tspan>
+      <tspan x="6.362305" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">0</tspan>
+      <tspan x="14.184082" y="-4.707813" style="font-size: 7px; font-family: 'DejaVu Sans'">∘</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="146.142149" y="29.294876" transform="rotate(-0 146.142149 29.294876)">Equilateral triangle, side 2</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="line2d_4">
+    <path d="M 301.872163 152.483014 
+L 388.678192 152.483014 
+L 301.872163 65.676986 
+L 301.872163 152.483014 
+" clip-path="url(#peeb02cba04)" style="fill: none; stroke: #2563eb; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 301.872163 143.802411 
+L 310.552766 143.802411 
+L 310.552766 152.483014 
+L 301.872163 152.483014 
+" clip-path="url(#peeb02cba04)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="345.275177" y="168.761273" transform="rotate(-0 345.275177 168.761273)">1</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="294.927681" y="111.677656" transform="rotate(-0 294.927681 111.677656)">1</text>
+   </g>
+   <g id="text_13">
+    <!-- $\sqrt{2}$ -->
+    <g style="fill: #dc2626" transform="translate(352.21966 104.739699)">
+     <text>
+      <tspan x="0" y="-2.55625" style="font-size: 5.71066px; font-family: 'STIXSizeOneSym'; fill: #dc2626">√</tspan>
+      <tspan x="7.27829" y="-0.953125" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #dc2626">2</tspan>
+     </text>
+     <rect x="6.02829" y="-12.375" width="8.862305" height="0.625"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <!-- $45^\circ$ -->
+    <g transform="translate(354.222504 146.406592)">
+     <text>
+      <tspan x="0" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">4</tspan>
+      <tspan x="6.362305" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">5</tspan>
+      <tspan x="14.184082" y="-4.707813" style="font-size: 7px; font-family: 'DejaVu Sans'">∘</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_15">
+    <!-- $45^\circ$ -->
+    <g transform="translate(306.212465 89.982674)">
+     <text>
+      <tspan x="0" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">4</tspan>
+      <tspan x="6.362305" y="-0.577813" style="font-size: 10px; font-family: 'DejaVu Sans'">5</tspan>
+      <tspan x="14.184082" y="-4.707813" style="font-size: 7px; font-family: 'DejaVu Sans'">∘</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="340.934876" y="33.635177" transform="rotate(-0 340.934876 33.635177)">Half of a unit square</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8a2dd3aaf9">
+   <rect x="57.6" y="35.294876" width="177.084298" height="147.570248"/>
+  </clipPath>
+  <clipPath id="peeb02cba04">
+   <rect x="267.149752" y="39.635177" width="147.570248" height="138.889645"/>
+  </clipPath>
+ </defs>
+</svg>
