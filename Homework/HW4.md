@@ -1,4 +1,4 @@
-# Homework 3 Solutions
+# Homework 4 Solutions
 
 Based on [Lecture 4: Inverse and Logarithmic Functions](../Notes/N4.md).
 
