@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="260" viewBox="0 0 520 260" role="img" aria-labelledby="title desc">
+  <title id="title">A 120-degree isosceles triangle and its altitude</title>
+  <desc id="desc">Triangle ABC has AB and AC equal to 2, vertex angle A of 120 degrees, and base angles of 30 degrees. The perpendicular altitude AD has length 1 and divides BC into two segments of length square root 3, making the whole base 2 square root 3.</desc>
+  <rect width="520" height="260" fill="white"/>
+  <g fill="none" stroke-linejoin="round">
+    <path d="M52.154 166 L260 46 L467.846 166 Z" stroke="#2563eb" stroke-width="2.5"/>
+    <path d="M260 46 V166" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <path d="M260 154 H272 V166" stroke="#374151" stroke-width="1.2"/>
+    <path d="M287.713 62 A32 32 0 0 1 232.287 62" stroke="#374151" stroke-width="1.2"/>
+    <path d="M90.154 166 A38 38 0 0 0 85.063 147" stroke="#374151" stroke-width="1.2"/>
+    <path d="M434.937 147 A38 38 0 0 0 429.846 166" stroke="#374151" stroke-width="1.2"/>
+    <path d="M52.154 211 V223 M52.154 217 H467.846 M467.846 211 V223" stroke="#6b7280" stroke-width="1"/>
+  </g>
+  <g font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#111827" text-anchor="middle">
+    <text x="260" y="29">A</text>
+    <text x="35" y="180">B</text>
+    <text x="485" y="180">C</text>
+    <text x="275" y="190">D</text>
+    <text x="147" y="94">2</text>
+    <text x="373" y="94">2</text>
+    <rect x="206" y="80" width="108" height="21" fill="white"/>
+    <text x="260" y="97" font-size="16">120° = 2π/3</text>
+    <text x="127" y="157" font-size="15">30° = π/6</text>
+    <text x="393" y="157" font-size="15">30° = π/6</text>
+    <text x="244" y="133" fill="#dc2626">1</text>
+    <text x="156" y="192">√3</text>
+    <text x="364" y="192">√3</text>
+    <text x="260" y="245">BC = 2√3</text>
+  </g>
+</svg>
