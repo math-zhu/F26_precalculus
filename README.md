@@ -32,8 +32,8 @@ Course Information: This course provides a systematic introduction to the core i
 | 10/17 | Trigonometric Functions and Their Properties | [N6](Notes/N6.pdf) | [HW6](Homework/HW6.pdf) |
 | 10/24 | Trigonometric Transformations, Equations, and Identities | [N7](Notes/N7.pdf) | [HW7](Homework/HW7.pdf) |
 | 10/31 | Review and Quiz 1 | [Q1-review](Quiz/Q1-review.md) | TBD |
-| 11/7 | Half-Angle Identities and Inverse Trigonometric Functions | [N8](Notes/N8.pdf) | TBD |
-| 11/14 | TBD | N10 | TBD |
+| 11/7 | Half-Angle Identities and Inverse Trigonometric Functions | [N8](Notes/N8.pdf) | [HW8](Homework/HW8.pdf) |
+| 11/14 | Complex Numbers and the Geometry of Multiplication | [N9](Notes/N9.pdf) | TBD |
 | 11/21 | TBD | N11 | TBD |
 | 11/28 | TBD | N12 | TBD |
 | 12/5 | TBD | N13 | TBD |
